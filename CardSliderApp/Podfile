@@ -1,0 +1,22 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'CardSliderApp' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for CardSliderApp
+
+pod "SnapKit"
+pod "CardSlider"
+
+  target 'CardSliderAppTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'CardSliderAppUITests' do
+    # Pods for testing
+  end
+
+end

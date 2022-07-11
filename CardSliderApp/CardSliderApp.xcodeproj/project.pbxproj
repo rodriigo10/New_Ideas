@@ -1,0 +1,747 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C37482667E8D4AAC3066E2D /* Pods_CardSliderApp_CardSliderAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5622BABEBEE06F690E9DE199 /* Pods_CardSliderApp_CardSliderAppUITests.framework */; };
+		9821AAC5287C88430068D1E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9821AAC4287C88430068D1E0 /* AppDelegate.swift */; };
+		9821AAC7287C88430068D1E0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9821AAC6287C88430068D1E0 /* SceneDelegate.swift */; };
+		9821AACE287C88550068D1E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9821AACD287C88550068D1E0 /* Assets.xcassets */; };
+		9821AAD1287C88550068D1E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9821AACF287C88550068D1E0 /* LaunchScreen.storyboard */; };
+		9821AADC287C88570068D1E0 /* CardSliderAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9821AADB287C88570068D1E0 /* CardSliderAppTests.swift */; };
+		9821AAE6287C88580068D1E0 /* CardSliderAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9821AAE5287C88580068D1E0 /* CardSliderAppUITests.swift */; };
+		9821AAE8287C88580068D1E0 /* CardSliderAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9821AAE7287C88580068D1E0 /* CardSliderAppUITestsLaunchTests.swift */; };
+		9821AAF5287C88F90068D1E0 /* CardSliderTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9821AAF4287C88F90068D1E0 /* CardSliderTestViewController.swift */; };
+		CFBF106841B83A6CBC4EABA4 /* Pods_CardSliderApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 626B0545B74731FFA52E9501 /* Pods_CardSliderApp.framework */; };
+		E62C88E829115990A3E3D4CA /* Pods_CardSliderAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC6EDCB55D33305E4BFD753E /* Pods_CardSliderAppTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9821AAD8287C88570068D1E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9821AAB9287C88430068D1E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9821AAC0287C88430068D1E0;
+			remoteInfo = CardSliderApp;
+		};
+		9821AAE2287C88580068D1E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9821AAB9287C88430068D1E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9821AAC0287C88430068D1E0;
+			remoteInfo = CardSliderApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		441A109425493523A090BCD6 /* Pods-CardSliderApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CardSliderApp.debug.xcconfig"; path = "Target Support Files/Pods-CardSliderApp/Pods-CardSliderApp.debug.xcconfig"; sourceTree = "<group>"; };
+		4768107513724CF00EAEA163 /* Pods-CardSliderAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CardSliderAppTests.debug.xcconfig"; path = "Target Support Files/Pods-CardSliderAppTests/Pods-CardSliderAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5622BABEBEE06F690E9DE199 /* Pods_CardSliderApp_CardSliderAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CardSliderApp_CardSliderAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		626B0545B74731FFA52E9501 /* Pods_CardSliderApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CardSliderApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9821AAC1287C88430068D1E0 /* CardSliderApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardSliderApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9821AAC4287C88430068D1E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9821AAC6287C88430068D1E0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9821AACD287C88550068D1E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9821AAD0287C88550068D1E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9821AAD2287C88550068D1E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9821AAD7287C88570068D1E0 /* CardSliderAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardSliderAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9821AADB287C88570068D1E0 /* CardSliderAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSliderAppTests.swift; sourceTree = "<group>"; };
+		9821AAE1287C88580068D1E0 /* CardSliderAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardSliderAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9821AAE5287C88580068D1E0 /* CardSliderAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSliderAppUITests.swift; sourceTree = "<group>"; };
+		9821AAE7287C88580068D1E0 /* CardSliderAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSliderAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9821AAF4287C88F90068D1E0 /* CardSliderTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSliderTestViewController.swift; sourceTree = "<group>"; };
+		A2FEFB21A76C67FD5CF412D1 /* Pods-CardSliderAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CardSliderAppTests.release.xcconfig"; path = "Target Support Files/Pods-CardSliderAppTests/Pods-CardSliderAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		A8BBFA9A752BDD2D49BE0DF5 /* Pods-CardSliderApp-CardSliderAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CardSliderApp-CardSliderAppUITests.release.xcconfig"; path = "Target Support Files/Pods-CardSliderApp-CardSliderAppUITests/Pods-CardSliderApp-CardSliderAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CCF09BAFE8B2E4861D9F301E /* Pods-CardSliderApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CardSliderApp.release.xcconfig"; path = "Target Support Files/Pods-CardSliderApp/Pods-CardSliderApp.release.xcconfig"; sourceTree = "<group>"; };
+		DA5929251137416E41A12635 /* Pods-CardSliderApp-CardSliderAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CardSliderApp-CardSliderAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-CardSliderApp-CardSliderAppUITests/Pods-CardSliderApp-CardSliderAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EC6EDCB55D33305E4BFD753E /* Pods_CardSliderAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CardSliderAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9821AABE287C88430068D1E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFBF106841B83A6CBC4EABA4 /* Pods_CardSliderApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9821AAD4287C88570068D1E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E62C88E829115990A3E3D4CA /* Pods_CardSliderAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9821AADE287C88580068D1E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C37482667E8D4AAC3066E2D /* Pods_CardSliderApp_CardSliderAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E844DB16007F532E121715E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				441A109425493523A090BCD6 /* Pods-CardSliderApp.debug.xcconfig */,
+				CCF09BAFE8B2E4861D9F301E /* Pods-CardSliderApp.release.xcconfig */,
+				DA5929251137416E41A12635 /* Pods-CardSliderApp-CardSliderAppUITests.debug.xcconfig */,
+				A8BBFA9A752BDD2D49BE0DF5 /* Pods-CardSliderApp-CardSliderAppUITests.release.xcconfig */,
+				4768107513724CF00EAEA163 /* Pods-CardSliderAppTests.debug.xcconfig */,
+				A2FEFB21A76C67FD5CF412D1 /* Pods-CardSliderAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9821AAB8287C88430068D1E0 = {
+			isa = PBXGroup;
+			children = (
+				9821AAC3287C88430068D1E0 /* CardSliderApp */,
+				9821AADA287C88570068D1E0 /* CardSliderAppTests */,
+				9821AAE4287C88580068D1E0 /* CardSliderAppUITests */,
+				9821AAC2287C88430068D1E0 /* Products */,
+				6E844DB16007F532E121715E /* Pods */,
+				A175FFAE59AB26B7021D1E6F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9821AAC2287C88430068D1E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9821AAC1287C88430068D1E0 /* CardSliderApp.app */,
+				9821AAD7287C88570068D1E0 /* CardSliderAppTests.xctest */,
+				9821AAE1287C88580068D1E0 /* CardSliderAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9821AAC3287C88430068D1E0 /* CardSliderApp */ = {
+			isa = PBXGroup;
+			children = (
+				9821AAC4287C88430068D1E0 /* AppDelegate.swift */,
+				9821AAC6287C88430068D1E0 /* SceneDelegate.swift */,
+				9821AAF4287C88F90068D1E0 /* CardSliderTestViewController.swift */,
+				9821AACD287C88550068D1E0 /* Assets.xcassets */,
+				9821AACF287C88550068D1E0 /* LaunchScreen.storyboard */,
+				9821AAD2287C88550068D1E0 /* Info.plist */,
+			);
+			path = CardSliderApp;
+			sourceTree = "<group>";
+		};
+		9821AADA287C88570068D1E0 /* CardSliderAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				9821AADB287C88570068D1E0 /* CardSliderAppTests.swift */,
+			);
+			path = CardSliderAppTests;
+			sourceTree = "<group>";
+		};
+		9821AAE4287C88580068D1E0 /* CardSliderAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9821AAE5287C88580068D1E0 /* CardSliderAppUITests.swift */,
+				9821AAE7287C88580068D1E0 /* CardSliderAppUITestsLaunchTests.swift */,
+			);
+			path = CardSliderAppUITests;
+			sourceTree = "<group>";
+		};
+		A175FFAE59AB26B7021D1E6F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				626B0545B74731FFA52E9501 /* Pods_CardSliderApp.framework */,
+				5622BABEBEE06F690E9DE199 /* Pods_CardSliderApp_CardSliderAppUITests.framework */,
+				EC6EDCB55D33305E4BFD753E /* Pods_CardSliderAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9821AAC0287C88430068D1E0 /* CardSliderApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9821AAEB287C88580068D1E0 /* Build configuration list for PBXNativeTarget "CardSliderApp" */;
+			buildPhases = (
+				D9CD0C0D2D3DC0987AE9F7A6 /* [CP] Check Pods Manifest.lock */,
+				9821AABD287C88430068D1E0 /* Sources */,
+				9821AABE287C88430068D1E0 /* Frameworks */,
+				9821AABF287C88430068D1E0 /* Resources */,
+				5672B7F102FDEEF52100AE80 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CardSliderApp;
+			productName = CardSliderApp;
+			productReference = 9821AAC1287C88430068D1E0 /* CardSliderApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9821AAD6287C88570068D1E0 /* CardSliderAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9821AAEE287C88580068D1E0 /* Build configuration list for PBXNativeTarget "CardSliderAppTests" */;
+			buildPhases = (
+				C045EB35935456A608745143 /* [CP] Check Pods Manifest.lock */,
+				9821AAD3287C88570068D1E0 /* Sources */,
+				9821AAD4287C88570068D1E0 /* Frameworks */,
+				9821AAD5287C88570068D1E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9821AAD9287C88570068D1E0 /* PBXTargetDependency */,
+			);
+			name = CardSliderAppTests;
+			productName = CardSliderAppTests;
+			productReference = 9821AAD7287C88570068D1E0 /* CardSliderAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9821AAE0287C88580068D1E0 /* CardSliderAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9821AAF1287C88580068D1E0 /* Build configuration list for PBXNativeTarget "CardSliderAppUITests" */;
+			buildPhases = (
+				1D0EC8FB55C3C82E481BD992 /* [CP] Check Pods Manifest.lock */,
+				9821AADD287C88580068D1E0 /* Sources */,
+				9821AADE287C88580068D1E0 /* Frameworks */,
+				9821AADF287C88580068D1E0 /* Resources */,
+				1FF83B41B6EAE7662C87093B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9821AAE3287C88580068D1E0 /* PBXTargetDependency */,
+			);
+			name = CardSliderAppUITests;
+			productName = CardSliderAppUITests;
+			productReference = 9821AAE1287C88580068D1E0 /* CardSliderAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9821AAB9287C88430068D1E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					9821AAC0287C88430068D1E0 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					9821AAD6287C88570068D1E0 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 9821AAC0287C88430068D1E0;
+					};
+					9821AAE0287C88580068D1E0 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 9821AAC0287C88430068D1E0;
+					};
+				};
+			};
+			buildConfigurationList = 9821AABC287C88430068D1E0 /* Build configuration list for PBXProject "CardSliderApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9821AAB8287C88430068D1E0;
+			productRefGroup = 9821AAC2287C88430068D1E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9821AAC0287C88430068D1E0 /* CardSliderApp */,
+				9821AAD6287C88570068D1E0 /* CardSliderAppTests */,
+				9821AAE0287C88580068D1E0 /* CardSliderAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9821AABF287C88430068D1E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9821AAD1287C88550068D1E0 /* LaunchScreen.storyboard in Resources */,
+				9821AACE287C88550068D1E0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9821AAD5287C88570068D1E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9821AADF287C88580068D1E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D0EC8FB55C3C82E481BD992 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CardSliderApp-CardSliderAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1FF83B41B6EAE7662C87093B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CardSliderApp-CardSliderAppUITests/Pods-CardSliderApp-CardSliderAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CardSliderApp-CardSliderAppUITests/Pods-CardSliderApp-CardSliderAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CardSliderApp-CardSliderAppUITests/Pods-CardSliderApp-CardSliderAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5672B7F102FDEEF52100AE80 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CardSliderApp/Pods-CardSliderApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CardSliderApp/Pods-CardSliderApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CardSliderApp/Pods-CardSliderApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C045EB35935456A608745143 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CardSliderAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9CD0C0D2D3DC0987AE9F7A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CardSliderApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9821AABD287C88430068D1E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9821AAF5287C88F90068D1E0 /* CardSliderTestViewController.swift in Sources */,
+				9821AAC5287C88430068D1E0 /* AppDelegate.swift in Sources */,
+				9821AAC7287C88430068D1E0 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9821AAD3287C88570068D1E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9821AADC287C88570068D1E0 /* CardSliderAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9821AADD287C88580068D1E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9821AAE6287C88580068D1E0 /* CardSliderAppUITests.swift in Sources */,
+				9821AAE8287C88580068D1E0 /* CardSliderAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9821AAD9287C88570068D1E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9821AAC0287C88430068D1E0 /* CardSliderApp */;
+			targetProxy = 9821AAD8287C88570068D1E0 /* PBXContainerItemProxy */;
+		};
+		9821AAE3287C88580068D1E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9821AAC0287C88430068D1E0 /* CardSliderApp */;
+			targetProxy = 9821AAE2287C88580068D1E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9821AACF287C88550068D1E0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9821AAD0287C88550068D1E0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9821AAE9287C88580068D1E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9821AAEA287C88580068D1E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9821AAEC287C88580068D1E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 441A109425493523A090BCD6 /* Pods-CardSliderApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RUTLL58S2M;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CardSliderApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ProgrammerTeam.CardSliderApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9821AAED287C88580068D1E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCF09BAFE8B2E4861D9F301E /* Pods-CardSliderApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RUTLL58S2M;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CardSliderApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ProgrammerTeam.CardSliderApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9821AAEF287C88580068D1E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4768107513724CF00EAEA163 /* Pods-CardSliderAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RUTLL58S2M;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ProgrammerTeam.CardSliderAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CardSliderApp.app/CardSliderApp";
+			};
+			name = Debug;
+		};
+		9821AAF0287C88580068D1E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2FEFB21A76C67FD5CF412D1 /* Pods-CardSliderAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RUTLL58S2M;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ProgrammerTeam.CardSliderAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CardSliderApp.app/CardSliderApp";
+			};
+			name = Release;
+		};
+		9821AAF2287C88580068D1E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA5929251137416E41A12635 /* Pods-CardSliderApp-CardSliderAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RUTLL58S2M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ProgrammerTeam.CardSliderAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CardSliderApp;
+			};
+			name = Debug;
+		};
+		9821AAF3287C88580068D1E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8BBFA9A752BDD2D49BE0DF5 /* Pods-CardSliderApp-CardSliderAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RUTLL58S2M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ProgrammerTeam.CardSliderAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CardSliderApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9821AABC287C88430068D1E0 /* Build configuration list for PBXProject "CardSliderApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9821AAE9287C88580068D1E0 /* Debug */,
+				9821AAEA287C88580068D1E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9821AAEB287C88580068D1E0 /* Build configuration list for PBXNativeTarget "CardSliderApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9821AAEC287C88580068D1E0 /* Debug */,
+				9821AAED287C88580068D1E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9821AAEE287C88580068D1E0 /* Build configuration list for PBXNativeTarget "CardSliderAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9821AAEF287C88580068D1E0 /* Debug */,
+				9821AAF0287C88580068D1E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9821AAF1287C88580068D1E0 /* Build configuration list for PBXNativeTarget "CardSliderAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9821AAF2287C88580068D1E0 /* Debug */,
+				9821AAF3287C88580068D1E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9821AAB9287C88430068D1E0 /* Project object */;
+}

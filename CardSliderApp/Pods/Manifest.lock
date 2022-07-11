@@ -1,0 +1,20 @@
+PODS:
+  - CardSlider (0.1.0)
+  - SnapKit (5.6.0)
+
+DEPENDENCIES:
+  - CardSlider
+  - SnapKit
+
+SPEC REPOS:
+  trunk:
+    - CardSlider
+    - SnapKit
+
+SPEC CHECKSUMS:
+  CardSlider: 0a8f5f17f5a76701771794b07fdaeddc512358c8
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+
+PODFILE CHECKSUM: ff747ed127ffe7ccc4071ae189a8077afaca1fed
+
+COCOAPODS: 1.11.3
