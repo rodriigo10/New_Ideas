@@ -37,11 +37,19 @@ class CardSliderTestViewController: UIViewController, CardSliderDataSource {
         super.viewDidLoad()
         
         view.backgroundColor = .white
+        appendItens()
+        addSubViews()
+        makeConstraints()
+    }
+    
+    func appendItens() {
+        
         data.append(Item(image: UIImage(named: "GibaPizza") ?? UIImage(),
                          rating: 3,
                          title: "Pizza Abencoada",
                          subtitle: "Super Giba Pizza",
                          description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum"))
+        
         data.append(Item(image: UIImage(named: "GibaPizza2") ?? UIImage(),
                          rating: 3,
                          title: "Pizza Abencoada",
@@ -53,17 +61,13 @@ class CardSliderTestViewController: UIViewController, CardSliderDataSource {
                          title: "Pizza Abencoada",
                          subtitle: "Super Giba Pizza3",
                          description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum"))
-        
-        
-        addSubViews()
-        makeConstraints()
     }
     
     func addSubViews() {
         view.addSubview(buttonLoadCard)
     }
     
-    func makeConstraints(){
+    func makeConstraints() {
         buttonLoadCard.snp.makeConstraints { make in
             make.centerX.equalToSuperview()
             make.centerY.equalToSuperview()
@@ -81,12 +85,9 @@ class CardSliderTestViewController: UIViewController, CardSliderDataSource {
     }
     
     @objc func buttonTap(sender: UIButton!) {
-        
-        
         let vc = CardSliderViewController.with(dataSource: self)
         vc.title = "Welcome"
         vc.modalPresentationStyle = .fullScreen
         present(vc, animated: true)
     }
-    
 }
